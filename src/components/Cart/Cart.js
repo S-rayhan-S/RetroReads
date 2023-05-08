@@ -16,7 +16,7 @@ export default function Cart() {
               <div className="px-4 py-6 sm:px-8 sm:py-10">
                 <div className="flow-root">
                   <ul className="-my-8">
-                    <List />
+                    <List img="https://bookish.pages.dev/img/hero-img2.jpg"/>
                     <List />
                     <List />
                     <List />
