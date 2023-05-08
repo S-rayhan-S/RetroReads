@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function List() {
+export default function List({img}) {
   return (
     <li className="flex flex-col space-y-3 py-6 text-left sm:flex-row sm:space-x-5 sm:space-y-0">
     <div className="shrink-0">
-      <img className="h-24 w-24 max-w-full rounded-lg object-cover" src="https://bookish.pages.dev/img/hero-img2.jpg" alt=''/> </div>
+      <img className="h-24 w-24 max-w-full rounded-lg object-cover" src={img} alt=''/> </div>
 
     <div className="relative flex flex-1 flex-col justify-between">
       <div className="sm:col-gap-5 sm:grid sm:grid-cols-2">
