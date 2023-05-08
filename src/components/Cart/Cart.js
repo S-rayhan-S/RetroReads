@@ -17,7 +17,7 @@ export default function Cart() {
                 <div className="flow-root">
                   <ul className="-my-8">
                     <List img="https://bookish.pages.dev/img/hero-img2.jpg"/>
-                    <List />
+                    <List img="https://th.bing.com/th/id/R.1aba47f490e8301201fe30c2c787f990?rik=MP4fM6PRV7A3DA&riu=http%3a%2f%2fwww.readcwbooks.com%2fbooks.jpg&ehk=cAarLxSITWsz4nmMc4fIPsGFcVCQhsiF900nm4lRhpY%3d&risl=&pid=ImgRaw&r=0"/>
                     <List />
                     <List />
                   </ul>
