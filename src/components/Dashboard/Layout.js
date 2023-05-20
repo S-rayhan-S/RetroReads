@@ -1,22 +1,15 @@
 import React from "react";
-import Nav from "./Nav";
 import Sidebar from "./Sidebar";
-
-export default function Layout({children}) {
+import Navbar from "../Navbar/Navbar";
+export default function Layout({ children }) {
   return (
-    <div className="bg-white flex h-screen">
+    <>
+    <Navbar/>
+    <div className="flex">
       <Sidebar />
-      <div className="flex h-full w-full flex-col">
-        <Nav />
-        <div className="h-full overflow-hidden">
-          <main
-            id="dashboard-main"
-            className="h-[calc(100vh-7rem)] overflow-auto"
-          >
-            {children}
-          </main>
-        </div>
-      </div>
+      <main className="h-screen w-screen overflow-scroll">{children}
+     </main>
     </div>
+    </>
   );
 }
